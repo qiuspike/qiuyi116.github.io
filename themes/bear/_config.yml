@@ -42,7 +42,7 @@ show_count: false
 disqus_shortname:
 
 # Miscellaneous
-google_analytics: 'UA-61220413-1'
+google_analytics: ''
 gauges_analytics:
 favicon: /images/hiro.png
 avatar: "/images/hiro.png"
