@@ -1,22 +1,21 @@
 # Header
 menu:
-  归档: /archives
+  archives: /archives
 rss: /atom.xml
-title: GARY.SHEN
+title: yqiu's blog
 
-author: GARY.SHEN
-aboutme: Halo~
+author: yqiu
+aboutme: programmer & reader
 
 # Content
-excerpt_link: 全文...
+excerpt_link: more...
 fancybox: true
-date_format: 'YYYY年MM月DD日'
+date_format: 'MMM DD, YYYY'
 
 socials:
-  github: "https://github.com/gary-Shen"
-  email: "guanlinshen@126.com"
-  wechat: "Grinson"
-
+  telegram: "http://t.me/qiuyi116"
+  github: "https://github.com/qiuyi116"
+  email: "qiuyi116@gmail.com"
 
 
 # Sidebar
@@ -45,8 +44,8 @@ disqus_shortname:
 # Miscellaneous
 google_analytics: 'UA-61220413-1'
 gauges_analytics:
-favicon: /images/avatar.png
-avatar: "/images/avatar.png"
+favicon: /images/hiro.png
+avatar: "/images/hiro.png"
 twitter:
 google_plus:
 fb_admins:

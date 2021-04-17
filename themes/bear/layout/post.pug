@@ -4,7 +4,7 @@ block content
   .container.post
     section.article
       .title= page.title
-      .date 写于#{moment(page.date).format(theme.date_format)}
+      .date #{moment(page.date).format(theme.date_format)}
       .content!= page.content
       if page.tags
         .tags!= list_tags(page.tags, { show_count: false, class: 'tag', style: false, separator: '' })
@@ -12,11 +12,11 @@ block content
   .container
     ul.nav
       if page.prev
-        li 上一篇：
-          a(href=url_for(page.prev.path))= page.prev.title || '未命名'
+        li prev：
+          a(href=url_for(page.prev.path))= page.prev.title || 'untitled'
       if page.next
-        li 下一篇：
-          a(href=url_for(page.next.path))= page.next.title || '未命名'
+        li next：
+          a(href=url_for(page.next.path))= page.next.title || 'untitled'
 
     if !index && config.disqus_shortname
       .comments
@@ -38,4 +38,3 @@ block js
         |  dsq.src = '//' + disqus_shortname + '.disqus.com/!{page.comments ? 'embed.js' : 'count.hs'}';
         |  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         | })();
-        
