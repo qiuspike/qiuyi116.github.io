@@ -102,4 +102,5 @@ theme: bear
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: 'heroku'
+  repo: 'https://git.heroku.com/yqiu-blog.git'
